@@ -221,3 +221,11 @@ body {
     }
 
 }
+@media (max-width: 768px) {
+
+    .search {
+        width: 100%;      /* ocupa el ancho disponible */
+        max-width: 250px; /* límite para que no sea enorme */
+    }
+
+}
