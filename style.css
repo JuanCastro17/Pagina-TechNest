@@ -183,5 +183,41 @@ body {
     .mis-compras {
         display: none; 
     }
+}
+@media (max-width: 1024px) {
+
+    .productos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grid-categorias {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+@media (max-width: 768px) {
+
+    .top-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .search {
+        width: 100%;
+    }
+
+    .nav {
+        display: none; /* oculta menú en móvil */
+    }
+
+    .grid-categorias {
+        grid-template-columns: 1fr;
+    }
+
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
