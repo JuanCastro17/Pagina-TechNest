@@ -57,11 +57,13 @@ body {
 
 /* BUSCADOR */
 .search {
-    width: 600px;
+    width: 100%;        
+    max-width: 600px;   
     padding: 8px;
     border-radius: 20px;
     border: none;
 }
+
 
 /* USUARIO */
 .user-section {
@@ -226,6 +228,13 @@ body {
     .search {
         width: 100%;      /* ocupa el ancho disponible */
         max-width: 250px; /* límite para que no sea enorme */
+    }
+
+}
+@media (max-width: 768px) {
+
+    .search {
+        width: 90%;   /* deja un pequeño margen */
     }
 
 }
